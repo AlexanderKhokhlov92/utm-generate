@@ -1,0 +1,116 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    color: #555555;
+    background-color: #e6e6e6;
+}
+
+h2 {
+    text-align: center;
+    margin-bottom: 15px;
+    margin-top: 25px;
+    color: #333333;
+    font-size: 20px;
+    text-transform: uppercase;
+}
+
+h3 {
+    text-align: center;
+    color: #333333;
+    font-size: 18px
+}
+
+.output-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10px; 
+    margin-top: 10px;
+  }
+  
+  .copy-button {
+    margin-left: 10px; 
+  }
+
+  .outputText {
+    font-size: 14px;
+  }
+
+  .inputContainer {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+  }
+
+  .inputText {
+    height: 30px;
+    width: 200px;
+    font-size: 20px;
+    padding: 5px;
+    border: 3px solid #333333;
+    border-radius: 5px;
+    margin-left: 15px;
+    background-color: transparent;
+  }
+
+  .inputText:first-child {
+    margin: 0;
+  }
+
+  .copy-button {
+    width: 35px;
+    height: 35px;
+    background-image: url('img/copy-file_icon-icons.com_56095.png');
+    background-size: 26px 26px; 
+    background-repeat: no-repeat; 
+    background-position: center; 
+    border: 3px solid #555555; 
+    border-radius: 5px;
+    cursor: pointer; 
+    background-color: transparent;
+    padding: 5px;
+  }
+
+  .copy-button:hover {
+    opacity: 0.7;
+  }
+
+  .generate-btn {
+    height: 30px;
+    margin-left: 15px;
+    border: 3px solid #333333;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 20px;
+    padding-left: 5px;
+    padding-right: 5px;
+  }
+
+  .generate-btn:hover {
+    opacity: 0.7;
+  }
+
+  .title {
+    text-align: center;
+    margin-top: 45px;
+    margin-bottom: 20px;
+  }
+
+  .link {
+    width: 230px;
+    margin: 0 auto;
+    font-size: 16px;
+    display: block;
+    margin-bottom: 20px;
+    color: #333333;
+    text-decoration: none;
+  }
+
+  .link:hover {
+    opacity: 0.5;
+  }
